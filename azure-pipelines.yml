@@ -33,7 +33,11 @@ steps:
       inputs:
         SourceFolder: '$(system.defaultworkingdirectory)'
         Contents: '**/*.war'
-        TargetFolder: '$(build.artifactstagingdirectory)'
+        TargetFolder: '$(build.artifactstaginfgfdgfdg
+        fdgfdgfd
+        gfgdfg
+        fgfdgfd
+        fdgfdggdirectory)'
         - task: PublishBuildArtifacts@1
           inputs:
             PathtoPublish: '$(Build.ArtifactStagingDirectory)'
